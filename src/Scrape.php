@@ -85,17 +85,17 @@ class Scrape
             // Deduplicate based on title, capacity, and colour
             foreach ($colours as $colour) {
                 $unique_key = "{$title}|{$capacity_mb}|" . ($colour ?? 'no-colour');
-                $products_collection[$unique_key] = [
-                    'title'            => $title,
-                    'price'            => $price,
-                    'imageUrl'         => $image_url,
-                    'capacityMB'       => $capacity_mb,
-                    'colour'           => $colour,
-                    'availabilityText' => $availability_text,
-                    'isAvailable'      => $is_available,
-                    'shippingText'     => $shipping_text,
-                    'shippingDate'     => $shipping_date,
-                ];
+                $products_collection[$unique_key] = new Product(
+                    $title,
+                    $price,
+                    $image_url,
+                    $capacity_mb,
+                    $colour,
+                    $availability_text,
+                    $is_available,
+                    $shipping_text,
+                    $shipping_date
+                );
             }
         });
 
