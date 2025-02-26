@@ -74,12 +74,21 @@ class Scrape
             $shipping_date = '';
             if ($availability_block->count() > 1) {
                 $shipping_text = trim($availability_block->eq(1)->text());
-                if (preg_match('/(\d{4}-\d{2}-\d{2})/', $shipping_text, $matches))
-                    $shipping_date = $matches[1];
-                elseif (preg_match('/(\d{1,2}\s+\w+\s+\d{4})/', $shipping_text, $matches)) {
-                    $dt = \DateTime::createFromFormat('j M Y', $matches[1]);
-                    if ($dt) $shipping_date = $dt->format('Y-m-d');
+
+                // Exact: YYYY-MM-DD format
+                if (preg_match('/\d{4}-\d{2}-\d{2}/', $shipping_text, $m))
+                    $shipping_date = $m[0];
+
+                // Example: "27 Feb 2025" or "27th Feb 2025"
+                elseif (preg_match('/(\d{1,2})(?:st|nd|rd|th)?\s+([A-Za-z]+)\s+(\d{4})/', $shipping_text, $m)) {
+                    $date_str = "{$m[1]} {$m[2]} {$m[3]}";
+                    $dt = \DateTime::createFromFormat('j M Y', $date_str);
+                    if ($dt instanceof \DateTime) $shipping_date = $dt->format('Y-m-d');
                 }
+
+                // Match "tomorrow"
+                elseif (stripos($shipping_text, 'tomorrow') !== false)
+                    $shipping_date = (new \DateTime('tomorrow'))->format('Y-m-d');
             }
 
             // Deduplicate based on title, capacity, and colour

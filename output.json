@@ -40,8 +40,8 @@
         "colour": "Sky Blue",
         "availabilityText": "In Stock Online",
         "isAvailable": true,
-        "shippingText": "Delivery by 22 Feb 2025",
-        "shippingDate": "2025-02-22"
+        "shippingText": "Delivery by 27 Feb 2025",
+        "shippingDate": "2025-02-27"
     },
     {
         "title": "Samsung Galaxy S20",
@@ -51,8 +51,8 @@
         "colour": "Grey",
         "availabilityText": "In Stock",
         "isAvailable": true,
-        "shippingText": "Free Delivery 22 Feb 2025",
-        "shippingDate": "2025-02-22"
+        "shippingText": "Free Delivery Thursday 27th Feb 2025",
+        "shippingDate": "2025-02-27"
     },
     {
         "title": "Huawei P30 Pro",
@@ -73,8 +73,8 @@
         "colour": "Orange",
         "availabilityText": "Out of Stock",
         "isAvailable": false,
-        "shippingText": "Delivery from Sunday 23rd Mar 2025",
-        "shippingDate": ""
+        "shippingText": "Delivery from 2025-03-28",
+        "shippingDate": "2025-03-28"
     },
     {
         "title": "Nokia 3310",
@@ -84,8 +84,8 @@
         "colour": "Yellow",
         "availabilityText": "Out of Stock",
         "isAvailable": false,
-        "shippingText": "Delivery from Sunday 23rd Mar 2025",
-        "shippingDate": ""
+        "shippingText": "Delivery from 2025-03-28",
+        "shippingDate": "2025-03-28"
     },
     {
         "title": "Nokia 3310",
@@ -95,8 +95,8 @@
         "colour": "Grey",
         "availabilityText": "Out of Stock",
         "isAvailable": false,
-        "shippingText": "Delivery from Sunday 23rd Mar 2025",
-        "shippingDate": ""
+        "shippingText": "Delivery from 2025-03-28",
+        "shippingDate": "2025-03-28"
     },
     {
         "title": "Nokia 3310",
@@ -106,8 +106,8 @@
         "colour": "Blue",
         "availabilityText": "Out of Stock",
         "isAvailable": false,
-        "shippingText": "Delivery from Sunday 23rd Mar 2025",
-        "shippingDate": ""
+        "shippingText": "Delivery from 2025-03-28",
+        "shippingDate": "2025-03-28"
     },
     {
         "title": "Google Pixel 5",
@@ -117,8 +117,8 @@
         "colour": "Black",
         "availabilityText": "In Stock",
         "isAvailable": true,
-        "shippingText": "Delivers Friday 21st Feb 2025",
-        "shippingDate": ""
+        "shippingText": "Delivers 26 Feb 2025",
+        "shippingDate": "2025-02-26"
     },
     {
         "title": "Sony Xperia 10",
@@ -150,8 +150,8 @@
         "colour": "Black",
         "availabilityText": "In Stock",
         "isAvailable": true,
-        "shippingText": "Free Delivery 22 Feb 2025",
-        "shippingDate": "2025-02-22"
+        "shippingText": "Free Delivery Thursday 27th Feb 2025",
+        "shippingDate": "2025-02-27"
     },
     {
         "title": "Oppo Reno4 Pro 5G",
@@ -173,7 +173,7 @@
         "availabilityText": "In Stock",
         "isAvailable": true,
         "shippingText": "Free Delivery tomorrow",
-        "shippingDate": ""
+        "shippingDate": "2025-02-27"
     },
     {
         "title": "Google Pixel 4",
@@ -183,8 +183,8 @@
         "colour": "Black",
         "availabilityText": "In Stock",
         "isAvailable": true,
-        "shippingText": "Delivers 2025-02-21",
-        "shippingDate": "2025-02-21"
+        "shippingText": "Delivers 26 Feb 2025",
+        "shippingDate": "2025-02-26"
     },
     {
         "title": "Google Pixel 4",
@@ -194,8 +194,8 @@
         "colour": "White",
         "availabilityText": "In Stock",
         "isAvailable": true,
-        "shippingText": "Delivers 2025-02-21",
-        "shippingDate": "2025-02-21"
+        "shippingText": "Delivers 26 Feb 2025",
+        "shippingDate": "2025-02-26"
     },
     {
         "title": "LG K42",
@@ -205,8 +205,8 @@
         "colour": "Black",
         "availabilityText": "In Stock",
         "isAvailable": true,
-        "shippingText": "Order within 6 hours and have it 23 Feb 2025",
-        "shippingDate": "2025-02-23"
+        "shippingText": "Order within 6 hours and have it 28 Feb 2025",
+        "shippingDate": "2025-02-28"
     },
     {
         "title": "Samsung Galaxy S20",
@@ -216,7 +216,7 @@
         "colour": "Grey",
         "availabilityText": "In Stock",
         "isAvailable": true,
-        "shippingText": "Free Delivery Saturday 22nd Feb 2025",
-        "shippingDate": ""
+        "shippingText": "Free Delivery 2025-02-27",
+        "shippingDate": "2025-02-27"
     }
 ]
